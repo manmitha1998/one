@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swiggy – Food Delivery</title>
-    < meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
         * {
@@ -17,7 +17,6 @@
             background: #f5f5f5;
         }
 
-        /* HEADER */
         header {
             background: #ffffff;
             padding: 16px 40px;
@@ -38,7 +37,6 @@
             color: #555;
         }
 
-        /* HERO SECTION */
         .hero {
             background: #fc8019;
             color: #fff;
@@ -79,7 +77,6 @@
             font-size: 16px;
         }
 
-        /* RESTAURANT SECTION */
         .section {
             padding: 40px;
         }
@@ -134,7 +131,6 @@
             font-size: 14px;
         }
 
-        /* FOOTER */
         footer {
             background: #000;
             color: #aaa;
@@ -148,4 +144,47 @@
 <body>
 
 <header>
-    <div c
+    <div class="logo">Swiggy</div>
+    <div class="location">📍 Bengaluru, India</div>
+</header>
+
+<section class="hero">
+    <h1>Order food from your favourite restaurants</h1>
+    <p>Fresh food • Fast delivery • Best restaurants</p>
+
+    <div class="search-box">
+        <input type="text" placeholder="Enter your delivery location">
+        <button>Search</button>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Popular Restaurants Near You</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+            <div class="card-content">
+                <h3>Meghana Foods</h3>
+                <p>Biryani, Andhra</p>
+                <span class="rating">★ 4.5</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9">
+            <div class="card-content">
+                <h3>Burger King</h3>
+                <p>Burgers, Fast Food</p>
+                <span class="rating">★ 4.2</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Swiggy Clone • Demo Project
+</footer>
+
+</body>
+</html>
